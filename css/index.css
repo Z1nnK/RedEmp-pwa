@@ -1,0 +1,81 @@
+.navbar{
+    width: 70%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 0%;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid midnightblue;
+    
+}
+.navbar *{
+    
+    color: black;
+    
+   
+}
+
+body{
+    background-color: white;
+    min-width: 360px;
+}
+
+#contentCarousel{
+    width: 70%;
+    margin:auto;
+}
+
+
+ 
+ .btn{
+    background-color: midnightblue;
+    color: white;
+    font-weight: bold;
+ }
+
+ #contenido{
+    width: 100%;
+    
+
+ }
+ #inicioTitulo{
+    font-size: larger;
+    font-weight: 300;
+ }
+
+#contentFoot {
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    height: auto;
+    background-color: white;
+}
+.carousel-inner {
+    border-radius: 1%;
+    
+    color: white;
+}
+.carousel-inner * {
+    
+    
+    color: black;
+    font-weight: 300;
+}
+#contentToast{
+    right: 0;
+    position: absolute;
+}
+
+
+@media (max-width: 767px) {
+    #contenido{
+        height: 1200px;
+        
+    
+     }
+     #contentCarousel{
+        width: 90%;
+     }
+     
+  }
+
